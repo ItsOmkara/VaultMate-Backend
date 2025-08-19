@@ -4,11 +4,8 @@ FROM maven:3.9.8-eclipse-temurin-21 AS build
 WORKDIR /app
 COPY . .
 
-# Fix permission issue
-RUN chmod +x mvnw
-
-# Run build
-RUN ./mvnw clean package -DskipTests
+# Run build with Maven (no need for mvnw)
+RUN mvn clean package -DskipTests
 
 # Step 2: Runtime stage
 FROM eclipse-temurin:21-jre
