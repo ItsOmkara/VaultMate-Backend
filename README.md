@@ -35,10 +35,6 @@ For detailed API documentation, please refer to the API endpoints documentation 
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-### License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ### Support
 
 For issues and questions, please [open an issue](https://github.com/ItsOmkara/VaultMate-Backend/issues) in this repository.
